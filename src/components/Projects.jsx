@@ -1,6 +1,8 @@
 import { motion } from 'framer-motion';
 import SectionHeading from './SectionHeading';
 
+const basePath = import.meta.env.BASE_URL;
+
 const projects = [
   {
     featured: true,
@@ -11,7 +13,7 @@ const projects = [
       'Focused on making sentiment insights accessible and easy to interpret.'
     ],
     tags: ['Flask', 'NLP', 'Machine Learning'],
-    image: '/images/projects/sentiment.png',
+    image: `${basePath}images/projects/sentiment.png`,
     demo: 'https://youtube-comment-sentiment-msdd.onrender.com',
     github: 'https://github.com/kritiikkaaa/youtube-comment-sentiment'
   },
@@ -23,7 +25,7 @@ const projects = [
       'Designed the experience to be simple, interactive, and practical for users.'
     ],
     tags: ['Flask', 'NLP', 'Web App'],
-    image: '/images/projects/news.png',
+    image: `${basePath}images/projects/news.png`,
     demo: 'https://fakenewsapp-production.up.railway.app',
     github: 'https://github.com/kritiikkaaa/FakeNewsApp'
   },
@@ -35,7 +37,7 @@ const projects = [
       'Created a polished experience for learners and administrators alike.'
     ],
     tags: ['Web Development', 'Education', 'Full Stack'],
-    image: '/images/projects/lms.png',
+    image: `${basePath}images/projects/lms.png`,
     demo: 'https://kritiikkaaa.github.io/Online-Learning-Management-System/',
     github: 'https://github.com/kritiikkaaa/Online-Learning-Management-System'
   }

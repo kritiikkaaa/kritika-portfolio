@@ -8,6 +8,8 @@ const socialLinks = [
   { icon: <FaEnvelope />, label: 'Email', href: 'mailto:kritikama58@gmail.com' }
 ];
 
+const basePath = import.meta.env.BASE_URL;
+
 function Hero() {
   return (
     <section id="home" className="relative flex min-h-screen items-center overflow-hidden px-6 py-24 sm:px-8 lg:px-10">
@@ -51,7 +53,7 @@ function Hero() {
         </motion.p>
 
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.28 }} className="mt-10 flex flex-wrap items-center justify-center gap-4">
-          <motion.a whileHover={{ scale: 1.04, boxShadow: '0 0 25px rgba(34,211,238,0.25)' }} whileTap={{ scale: 0.97 }} href="/resume.pdf" target="_blank" rel="noreferrer" className="rounded-full border border-cyan-400/40 bg-cyan-400/10 px-6 py-3 font-semibold text-cyan-100 shadow-[0_0_24px_rgba(34,211,238,0.18)] backdrop-blur-md">
+          <motion.a whileHover={{ scale: 1.04, boxShadow: '0 0 25px rgba(34,211,238,0.25)' }} whileTap={{ scale: 0.97 }} href={`${basePath}resume.pdf`} target="_blank" rel="noreferrer" className="rounded-full border border-cyan-400/40 bg-cyan-400/10 px-6 py-3 font-semibold text-cyan-100 shadow-[0_0_24px_rgba(34,211,238,0.18)] backdrop-blur-md">
             Resume
           </motion.a>
           <motion.a whileHover={{ scale: 1.04, boxShadow: '0 0 25px rgba(217,70,239,0.25)' }} whileTap={{ scale: 0.97 }} href="#contact" className="rounded-full border border-fuchsia-400/40 bg-fuchsia-400/10 px-6 py-3 font-semibold text-fuchsia-100 shadow-[0_0_24px_rgba(217,70,239,0.16)] backdrop-blur-md">
