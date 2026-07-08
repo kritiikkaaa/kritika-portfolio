@@ -30,14 +30,21 @@ function Hero() {
         </motion.p>
 
         <motion.h1 initial={{ opacity: 0, scale: 0.96 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.7, delay: 0.06 }} className="text-5xl font-black leading-[0.85] tracking-[-0.03em] text-white sm:text-7xl lg:text-8xl">
-          Kritika
+          <Typewriter words={['Kritika']}
+            loop={0}
+            cursor
+              cursorStyle="|"
+              typeSpeed={80}
+              deleteSpeed={60}
+              delaySpeed={1200}
+            />
         </motion.h1>
 
         <motion.div initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.16 }} className="mt-5 flex min-h-[3rem] items-center justify-center text-xl font-medium text-cyan-200 sm:text-2xl lg:text-3xl">
           <span className="mr-2 text-slate-400">I am a</span>
           <span className="typewriter tracking-wide text-cyan-300">
             <Typewriter
-              words={['Data Analyst.', 'QA Engineer.', 'Java Developer.', 'Problem Solver.', 'Tech Enthusiast.']}
+              words={['Data Analyst.', 'UI/UX Designer.', 'Front-End Developer.', 'Problem Solver.', 'Tech Enthusiast.']}
               loop={0}
               cursor
               cursorStyle="|"
