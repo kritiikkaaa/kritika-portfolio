@@ -14,7 +14,7 @@ function Education() {
             </div>
             <span className="text-sm uppercase tracking-[0.2em] text-slate-400">2023 — 2027</span>
           </div>
-          <p className="mt-4 text-slate-300">CGPA: 7.255/10.0</p>
+          <p className="mt-4 text-slate-300">CGPA: 7.25/10.0</p>
           <div className="mt-6 space-y-4">
             <div>
               <h4 className="font-semibold text-white">Government School, Chandigarh</h4>

@@ -29,7 +29,7 @@ function About() {
 
           <motion.div initial={{ opacity: 0, y: 24 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.25 }} transition={{ duration: 0.55, delay: 0.1 }} className="space-y-4">
             {[
-              { school: 'Chandigarh University', degree: 'Bachelor of Engineering in Computer Science', period: 'Aug 2023 – Present', detail: 'CGPA: 7.255/10' },
+              { school: 'Chandigarh University', degree: 'Bachelor of Engineering in Computer Science', period: 'Aug 2023 – Present', detail: 'CGPA: 7.25/10' },
               { school: 'Government School, Chandigarh', degree: 'Class XII', period: '2023', detail: '82.3%' },
               { school: 'Shivalik Public School, Mohali', degree: 'Class X', period: '2021', detail: '91.45%' }
             ].map((item) => (

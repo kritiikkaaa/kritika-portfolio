@@ -2,3 +2,5 @@ node_modules/
 dist/
 .vercel/
 .vscode/
+.venv/
+.venv-1/

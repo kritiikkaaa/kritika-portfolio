@@ -12,7 +12,7 @@ function Contact() {
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <a href="mailto:kritikama58@gmail.com" className="rounded-full bg-cyan-400 px-6 py-3 font-semibold text-slate-950 transition hover:bg-cyan-300">
-              Say Hello
+              Say Hello!
             </a>
             <a href="https://www.linkedin.com/in/kritikkaa/" target="_blank" rel="noreferrer" className="rounded-full border border-white/15 px-6 py-3 font-semibold text-white transition hover:border-cyan-400 hover:text-cyan-300">
               LinkedIn
