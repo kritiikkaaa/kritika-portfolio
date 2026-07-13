@@ -56,7 +56,7 @@ function Hero() {
         </motion.div>
 
         <motion.p initial={{ opacity: 0, y: 18 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.22 }} className="mt-8 max-w-3xl text-base leading-8 text-slate-300 sm:text-lg lg:text-xl">
-          I am a Computer Science undergraduate passionate about Data Analytics, QA Testing, and Software Development. I enjoy working with SQL, Java, MySQL, Excel, and learning Power BI. I love building practical projects and solving real-world problems through technology.
+          I am a Computer Science undergraduate passionate about Data Analytics, QA Testing, and Software Development. I enjoy working with SQL, C++, MySQL, Excel, and learning Power BI. I love building practical projects and solving real-world problems through technology.
         </motion.p>
 
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 0.28 }} className="mt-10 flex flex-wrap items-center justify-center gap-4">
