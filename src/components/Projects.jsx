@@ -26,7 +26,7 @@ const projects = [
     ],
     tags: ['Flask', 'NLP', 'Web App'],
     image: `${basePath}images/projects/news.png`,
-    demo: 'https://fakenewsapp-production.up.railway.app',
+    demo: 'https://fake-news-app-kritikkaa.vercel.app/',
     github: 'https://github.com/kritiikkaaa/FakeNewsApp'
   },
   {
