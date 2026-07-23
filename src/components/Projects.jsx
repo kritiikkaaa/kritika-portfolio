@@ -14,7 +14,7 @@ const projects = [
     ],
     tags: ['Flask', 'NLP', 'Machine Learning'],
     image: `${basePath}images/projects/sentiment.png`,
-    demo: 'https://youtube-comment-sentiment-msdd.onrender.com',
+    demo: 'https://youtube-comment-sentiment-yt.vercel.app/',
     github: 'https://github.com/kritiikkaaa/youtube-comment-sentiment'
   },
   {

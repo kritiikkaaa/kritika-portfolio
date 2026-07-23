@@ -3,4 +3,4 @@ dist/
 .vercel/
 .vscode/
 .venv/
-.venv-1/
+.venv-1/.DS_Store
