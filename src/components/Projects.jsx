@@ -32,11 +32,13 @@ const projects = [
   {
   title: 'News Scraper',
   highlights: [
-    'Built a Python-based web scraper to fetch the latest articles from Hacker News.',
-    'Extracted article titles and full content using BeautifulSoup and Newspaper3k.',
-    'Automated news collection into a structured format for further analysis.'
+    'Built a Python application to fetch the latest news articles from Hacker News.',
+  'Extracted article titles and complete content automatically.',
+  'Generated downloadable PDF reports for offline reading and sharing.'
   ],
-  tags: ['Python', 'BeautifulSoup', 'Requests', 'Newspaper3k'],
+  tags: [
+  'Python', 'Web Scraping','Automation','PDF Generation'
+],
   image: `${basePath}images/projects/news-scraper.png`,
   demo: 'https://news-scraper-kritikkaa.vercel.app/',
   github: 'https://github.com/kritiikkaaa/NewsScrapper'
