@@ -30,6 +30,18 @@ const projects = [
     github: 'https://github.com/kritiikkaaa/FakeNewsApp'
   },
   {
+  title: 'News Scraper',
+  highlights: [
+    'Built a Python-based web scraper to fetch the latest articles from Hacker News.',
+    'Extracted article titles and full content using BeautifulSoup and Newspaper3k.',
+    'Automated news collection into a structured format for further analysis.'
+  ],
+  tags: ['Python', 'BeautifulSoup', 'Requests', 'Newspaper3k'],
+  image: `${basePath}images/projects/news-scraper.png`,
+  demo: 'https://news-scraper-kritikkaa.vercel.app/',
+  github: 'https://github.com/kritiikkaaa/NewsScrapper'
+},
+  {
     title: 'Online Learning Management System',
     highlights: [
       'Built a learning platform with user authentication, course enrollment, and progress tracking.',
