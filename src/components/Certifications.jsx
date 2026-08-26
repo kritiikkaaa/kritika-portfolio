@@ -1,37 +1,37 @@
-import { motion } from 'framer-motion';
-import { FiExternalLink } from 'react-icons/fi';
-import SectionHeading from './SectionHeading';
+import { motion } from "framer-motion";
+import { FiExternalLink } from "react-icons/fi";
+import SectionHeading from "./SectionHeading";
 
 const certifications = [
   {
-    title: 'TATA Crucible Campus Quiz 2025',
-    issuer: 'Unstop',
+    title: "TATA Crucible Campus Quiz 2025",
+    issuer: "Unstop",
     detail:
-      'Participated in a national-level business quiz, demonstrating analytical thinking, business awareness, and problem-solving skills.',
-    link: 'https://unstop.com/certificate-preview/1650e222-12ad-4713-bd4f-6e1a67cfa1fc'
+      "Participated in a national-level business quiz, demonstrating analytical thinking, business awareness, and problem-solving skills.",
+    link: "https://unstop.com/certificate-preview/1650e222-12ad-4713-bd4f-6e1a67cfa1fc",
   },
   {
-    title: 'Data Science & Analytics',
-    issuer: 'HP LIFE',
+    title: "Data Science & Analytics",
+    issuer: "HP LIFE",
     detail:
-      'Completed a foundational program covering data science, analytics, data visualization, and data-driven decision making.',
-    link: 'https://www.life-global.org/certificate/d1a761dd-d190-4559-8646-8795464bfb07'
+      "Completed a foundational program covering data science, analytics, data visualization, and data-driven decision making.",
+    link: "https://www.life-global.org/certificate/d1a761dd-d190-4559-8646-8795464bfb07",
   },
   {
-    title: 'Data Analytics',
-    issuer: 'Deloitte',
+    title: "Data Analytics",
+    issuer: "Deloitte",
     detail:
-      'Completed a practical data analytics program focused on business insights, data interpretation, and analytical problem-solving.',
-    link: 'https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_D4W6tFyKgJAJcv4su_1750341788831_completion_certificate.pdf'
+      "Completed a practical data analytics program focused on business insights, data interpretation, and analytical problem-solving.",
+    link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_D4W6tFyKgJAJcv4su_1750341788831_completion_certificate.pdf",
     // Replace this with the correct Deloitte Data Analytics credential link
   },
   {
-    title: 'Technology Job Simulation',
-    issuer: 'Deloitte Australia',
+    title: "Technology Job Simulation",
+    issuer: "Deloitte Australia",
     detail:
-      'Completed a virtual technology job simulation involving software development, debugging, coding tasks, and real-world technical workflows.',
-    link: 'https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/udmxiyHeqYQLkTPvf_9PBTqmSxAf6zZTseP_D4W6tFyKgJAJcv4su_1748444657126_completion_certificate.pdf'
-  }
+      "Completed a virtual technology job simulation involving software development, debugging, coding tasks, and real-world technical workflows.",
+    link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/udmxiyHeqYQLkTPvf_9PBTqmSxAf6zZTseP_D4W6tFyKgJAJcv4su_1748444657126_completion_certificate.pdf",
+  },
 ];
 
 function Certifications() {
